@@ -13,8 +13,8 @@ ext {
     siteUrl = 'https://github.com/huan-nguyen/SwipeableRV'
     gitUrl = 'https://github.com/huan-nguyen/SwipeableRV.git'
 
-    libraryVersion = '1.1.0'
-    android_support_version = '25.3.1'
+    libraryVersion = '1.1.1'
+    android_support_version = '27.0.0'
 
     developerId = 'huannguyen'
     developerName = 'Huan Nguyen'
