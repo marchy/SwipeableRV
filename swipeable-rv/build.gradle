@@ -14,7 +14,7 @@ ext {
     gitUrl = 'https://github.com/huan-nguyen/SwipeableRV.git'
 
     libraryVersion = '1.1.1'
-    android_support_version = '27.0.0'
+    android_support_version = '27.1.1'
 
     developerId = 'huannguyen'
     developerName = 'Huan Nguyen'
@@ -26,18 +26,25 @@ ext {
 }
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
 
     defaultConfig {
-        minSdkVersion 10
-        targetSdkVersion 25
-        versionCode 1
-        versionName "1.1.0"
+        minSdkVersion 14
+        targetSdkVersion 27
+        versionCode 2
+        versionName "1.1.1"
     }
     buildTypes {
-        release {
+        debug {
             minifyEnabled false
+        }
+        next {
+        }
+        beta {
+        }
+        release {
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
